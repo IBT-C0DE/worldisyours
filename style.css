@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c6dff7; /* calm blue */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    padding: 40px;
+}
+
+.headline {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0 0 40px 0;
+}
+
+.scroll-box {
+    height: 150px;
+    overflow-y: scroll;
+    font-size: 1.8rem;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.sunrise {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
